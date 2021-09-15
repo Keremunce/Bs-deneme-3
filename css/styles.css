@@ -74,6 +74,10 @@ a:hover{
 .p-6{
     padding: 5rem;
 }
+.p-7{
+    padding: 6rem;
+
+}
 /* ====================================================== */
 #navbarNavAltMarkup{
     margin: 0 0 0 20em;
@@ -100,6 +104,12 @@ a:hover{
     background: #0B132A;
     box-shadow:  0 0 20px #0B132A;
 
+}
+
+@media  screen and (max-width: 600px) {
+    .Get_str_btn{
+        padding: .5em 2em;
+    }
 }
 h1{
     font-family: 'Rubik', sans-serif;
@@ -146,4 +156,61 @@ ul li {
 }
 .pre-card{
     border: 2px solid #f53838!important;
+}
+.cardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fa-star{
+    color: #fbe109;
+}
+.card{
+    height: 100%;
+}
+.card_Div{
+    min-height: 270px!important;
+    height: 280px!important;
+}
+.clampText{
+    font-size: clamp(1.5rem, 2.5vw, 4rem); 
+}
+.owl-prev,
+.owl-next{
+    padding: .5em .7em!important;
+    border-radius: 100%!important;
+    color: #fff!important;
+}
+.owl-next{
+    background: #F53838!important;
+}
+.owl-prev{
+    border: 1px solid #F53838!important;
+    color: #F53838!important;
+
+}
+.Subs_Div{
+    box-shadow: 0px 0px 10px hsl(0, 0%, 80%);
+    padding: 3em 2em!important;
+    /* margin: auto 10rem auto 10rem!important; */
+    width: 60%!important;
+    position: absolute;
+    top: -30%;
+    left: 20%;
+
+}
+.Contact_Icon{
+    padding: .5rem .8rem;
+    color: #f53838;
+    background: #fff;
+    box-shadow: 0 0 5px hsl(0, 0%, 80%);
+    border-radius: 100%;
+}
+.Contact_Icon + .Contact_Icon{
+    margin: 0 0 0 .7em;
+}
+.bg-gray{
+    background: hsl(0, 0%, 90%);
+    position: relative;
+    margin-top: 10rem;
 }

@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/08ab977222.js" crossorigin="anonymous"></script>
     
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- LIGHT SLIDER -->
-    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />                  
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/lightslider.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/lightslider.min.css" />                   -->
+
+    <link rel="stylesheet" href="owlcarousel//assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel//assets/owl.theme.default.min.css">
 </head>
 <body>
     <header>
@@ -50,7 +53,7 @@
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-6">
-                    <p class="fs-4 fw-600">Want anything to be easy with <b>LaslesVPN</b> </p>
+                    <p class="fs-4 fw-600 clampText">Want anything to be easy with <b>LaslesVPN</b> </p>
                     <p class="smallText-md mt-5 mb-5">
                         Provide a network for all your needs with ease and fun using 
                         <b>LaslesVPN</b> discover interesting features from us.
@@ -231,17 +234,174 @@
                     <p class="smallText-md">These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-7 align-items-strech">
+                <!-- <div class="col-md-12"> -->
+                    <div class="owl-carousel owl-theme ">
+                        <div class="item card_Div">
+                            <div class="card p-4">
+                                <div class="cardHeader">
+                                    <div>
+                                        <img src="https://laslesvpn-landing.netlify.app/images/customer-2.png" alt="">
+                                    </div>
 
+                                    <div class="ml-3">
+                                        <p class="fw-600 mb-0">Yessica Christy</p>
+                                        <p class="smallText mb-0">Shanxi, China</p>
+                                    </div>
+
+                                    <div>
+                                        <p>
+                                            4.5
+                                            <i class="fas fa-star"></i>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="card-body">
+                                  "I like it because I like to travel far and still can connect 
+                                  with high speed.."
+                                </div>
+                              </div>
+                        </div>
+                        <div class="item card_Div">
+                            <div class="card p-4">
+                                <div class="cardHeader">
+                                    <div>
+                                        <img src="https://laslesvpn-landing.netlify.app/images/customer-3.png" alt="">
+                                    </div>
+
+                                    <div class="ml-3">
+                                        <p class="fw-600 mb-0">Kim Young Jou</p>
+                                        <p class="smallText mb-0">Seoul, South Korea</p>
+                                    </div>
+
+                                    <div>
+                                        <p>
+                                            4.5
+                                            <i class="fas fa-star"></i>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="card-body">
+                                  "This is very unusual for my business that
+                                  currently requires a virtual private network that 
+                                  has high security.."
+                                </div>
+                              </div>
+                        </div>
+                        <div class="item card_Div">
+                            <div class="card p-4 pre-card">
+                                <div class="cardHeader">
+                                    <div>
+                                        <img src="https://laslesvpn-landing.netlify.app/images/customer-1.png" alt="">
+                                    </div>
+
+                                    <div class="ml-3">
+                                        <p class="fw-600 mb-0">Viezh Robert</p>
+                                        <p class="smallText mb-0">Warsaw, Poland</p>
+                                    </div>
+
+                                    <div>
+                                        <p>
+                                            4.5
+                                            <i class="fas fa-star"></i>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="card-body">
+                                  "Wow... I am very happy to use this VPN, it
+                                  turned out to be more than my expectations and so far there
+                                  have been no problems. LaslesVPN always the best."
+                                </div>
+                              </div>
+                        </div>
+                        
+                        
+                    </div>
+                   
+                </div>
             </div>
         </div>
     </section>
 
+ 
 
+    <section class="bg-gray">
+        <div class=" bg-light Subs_Div container rounded-10">
+            <div class="row justify-content-between  align-items-center">
+                <div class="col-md-5">
 
+                    <p class="fw-600 fs-1-5">Subscribe Now for Get Special Features!</p>
+                    <p class="smallText-md">Let's subscribe with us and find the fun.</p>
+                </div>
+               
+                <div class="col-md-5">
+                    <button type="button" class="Get_str_btn">Subscribe Now</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+            <div class="row justify-content-evenly p-7">
+                <div class="col-md-5">
+                    <p>Lasles<b>VPN</b></p>
+                    <p class="smallText-md">LaslesVPN is a private virtual network that has unique features and has high security.</p>
+    
+                    <div class="d-flex mt-5">
+                        <div class="Contact_Icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="Contact_Icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="Contact_Icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <p class="mt-5">© 2020 LaslesVPN</p>
+                </div>
+                <div class="col-md-2">
+                    <div class="d-flex flex-column ">
+                        <p class="font-600">Product</p>
+                        <p class="smallText-md">Download</p>
+                        <p class="smallText-md">Pricing</p>
+                        <p class="smallText-md">Location</p>
+                        <p class="smallText-md">Server</p>
+                        <p class="smallText-md">Countries</p>
+                        <p class="smallText-md">Blog</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="d-flex flex-column ">
+                        <p class="font-600">Engage</p>
+                        <p class="smallText-md">LaslesVPN ?</p>
+                        <p class="smallText-md">FAQ</p>
+                        <p class="smallText-md">Tutorials</p>
+                        <p class="smallText-md">About Us</p>
+                        <p class="smallText-md">Privacy Policy</p>
+                        <p class="smallText-md">Terms of Service</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="d-flex flex-column ">
+                        <p class="font-600">Earn Money</p>
+                        <p class="smallText-md">Affiliate</p>
+                        <p class="smallText-md">Become Partner</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <!-- <script src="js/lightslider.min.js"></script> -->
 
-    <script src="js/main.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
