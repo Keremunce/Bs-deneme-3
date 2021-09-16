@@ -86,6 +86,11 @@ a:hover{
 .Signin_btns{
     margin: 0 0 0 15em;
 }
+@media screen and (max-width: 768px) {
+    .Signin_btns{
+        margin: 0;
+    }
+}
 .Sign_up{
     border: 1px solid #F53838!important;
     color: #F53838!important;
@@ -106,7 +111,7 @@ a:hover{
 
 }
 
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 768px) {
     .Get_str_btn{
         padding: .5em 2em;
     }
@@ -167,7 +172,9 @@ ul li {
 }
 .card{
     height: 100%;
+    padding: 1em .5em 1rem .5em;
 }
+
 .card_Div{
     min-height: 270px!important;
     height: 280px!important;
@@ -213,4 +220,43 @@ ul li {
     background: hsl(0, 0%, 90%);
     position: relative;
     margin-top: 10rem;
+}
+.containerMe{
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    position: relative;
+    top: 120px;
+    background-color: #fff;
+    box-shadow: 0 20px 60px rgb(0 0 0 / 9%);
+    flex-direction: row;
+    padding: 5rem 4rem;
+}
+@media  screen and (max-width: 768px) {
+    .subscribe{
+        padding: 2em 1em;
+    }
+}
+
+footer{
+    background-color: #ddd9d956;
+    padding-top: 12rem;
+    padding-bottom: 3.125rem;
+}
+#navbarNavAltMarkup{
+    margin: 0!important;
+}
+.subscribe_Text{
+    font-size: clamp(.7rem, 2.5vw, 1rem); 
+}
+.subs_banner{
+    font-size: 1.5em;
 }
